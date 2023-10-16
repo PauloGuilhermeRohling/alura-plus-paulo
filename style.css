@@ -110,3 +110,48 @@ grid-template-columns: 50% 50%;
     font-size: 32px;
     color: var(--branco-principal);
 }
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link{
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.link{
+    text-decoration: none;
+    color: none;   
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--cinza-secundário);
+    font-size: 14px;
+}
+
+.rodape{
+    text-align:center;
+    margin: 5em 3em;
+}
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
+.lista__link a:active{
+    color: deeppink;
+}
+
+.container__botao:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.container__botao:active{
+    background-color: #b473ce;
+}
